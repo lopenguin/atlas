@@ -1,0 +1,21 @@
+[2.862s] Invoking command in '/home/atlas/atlas_ws/src/atlas_basic': PYTHONPATH=/home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/atlas_basic build --build-base /home/atlas/atlas_ws/build/atlas_basic/build install --prefix /home/atlas/atlas_ws/install/atlas_basic --record /home/atlas/atlas_ws/build/atlas_basic/install.log --single-version-externally-managed
+[3.963s] running egg_info
+[3.966s] writing ../../build/atlas_basic/atlas_basic.egg-info/PKG-INFO
+[3.967s] writing dependency_links to ../../build/atlas_basic/atlas_basic.egg-info/dependency_links.txt
+[3.968s] writing entry points to ../../build/atlas_basic/atlas_basic.egg-info/entry_points.txt
+[3.969s] writing requirements to ../../build/atlas_basic/atlas_basic.egg-info/requires.txt
+[3.970s] writing top-level names to ../../build/atlas_basic/atlas_basic.egg-info/top_level.txt
+[3.978s] reading manifest file '../../build/atlas_basic/atlas_basic.egg-info/SOURCES.txt'
+[3.982s] writing manifest file '../../build/atlas_basic/atlas_basic.egg-info/SOURCES.txt'
+[3.983s] running build
+[3.984s] running build_py
+[3.984s] running install
+[3.986s] running install_lib
+[3.992s] running install_data
+[3.994s] running install_egg_info
+[4.000s] removing '/home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages/atlas_basic-0.0.0-py3.10.egg-info' (and everything under it)
+[4.003s] Copying ../../build/atlas_basic/atlas_basic.egg-info to /home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages/atlas_basic-0.0.0-py3.10.egg-info
+[4.010s] running install_scripts
+[4.090s] Installing hello_world script to /home/atlas/atlas_ws/install/atlas_basic/lib/atlas_basic
+[4.092s] writing list of installed files to '/home/atlas/atlas_ws/build/atlas_basic/install.log'
+[4.217s] Invoked command in '/home/atlas/atlas_ws/src/atlas_basic' returned '0': PYTHONPATH=/home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/atlas_basic build --build-base /home/atlas/atlas_ws/build/atlas_basic/build install --prefix /home/atlas/atlas_ws/install/atlas_basic --record /home/atlas/atlas_ws/build/atlas_basic/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+hello_world = atlas_basic.hello_world:main
+

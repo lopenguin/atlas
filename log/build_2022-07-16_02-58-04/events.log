@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001147] (atlas_basic) JobQueued: {'identifier': 'atlas_basic', 'dependencies': OrderedDict()}
+[0.002359] (atlas_basic) JobStarted: {'identifier': 'atlas_basic'}
+[0.099234] (-) TimerEvent: {}
+[0.200032] (-) TimerEvent: {}
+[0.301637] (-) TimerEvent: {}
+[0.402432] (-) TimerEvent: {}
+[0.503234] (-) TimerEvent: {}
+[0.604150] (-) TimerEvent: {}
+[0.707602] (-) TimerEvent: {}
+[0.808500] (-) TimerEvent: {}
+[0.909446] (-) TimerEvent: {}
+[1.012009] (-) TimerEvent: {}
+[1.114449] (-) TimerEvent: {}
+[1.215962] (-) TimerEvent: {}
+[1.319076] (-) TimerEvent: {}
+[1.420156] (-) TimerEvent: {}
+[1.521771] (-) TimerEvent: {}
+[1.624400] (-) TimerEvent: {}
+[1.726251] (-) TimerEvent: {}
+[1.831561] (-) TimerEvent: {}
+[1.934524] (-) TimerEvent: {}
+[2.035348] (-) TimerEvent: {}
+[2.136317] (-) TimerEvent: {}
+[2.237181] (-) TimerEvent: {}
+[2.338017] (-) TimerEvent: {}
+[2.439027] (-) TimerEvent: {}
+[2.541570] (-) TimerEvent: {}
+[2.643060] (-) TimerEvent: {}
+[2.743938] (-) TimerEvent: {}
+[2.845533] (-) TimerEvent: {}
+[2.948009] (-) TimerEvent: {}
+[3.052324] (-) TimerEvent: {}
+[3.154912] (-) TimerEvent: {}
+[3.256013] (-) TimerEvent: {}
+[3.359381] (-) TimerEvent: {}
+[3.460769] (-) TimerEvent: {}
+[3.561858] (-) TimerEvent: {}
+[3.662721] (-) TimerEvent: {}
+[3.763905] (-) TimerEvent: {}
+[3.865514] (-) TimerEvent: {}
+[3.966651] (-) TimerEvent: {}
+[4.068663] (-) TimerEvent: {}
+[4.071524] (atlas_basic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/atlas/atlas_ws/install/atlas_basic', '--editable', '--build-directory', '/home/atlas/atlas_ws/build/atlas_basic/build', '--no-deps', 'install_data', '--install-dir', '/home/atlas/atlas_ws/install/atlas_basic'], 'cwd': '/home/atlas/atlas_ws/build/atlas_basic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'atlas', 'SSH_CLIENT': 'fe80::a99f:da3e:87b1:8247%wlan0 60997 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/atlas/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/atlas/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/atlas', 'OLDPWD': '/home/atlas/atlas_ws/src', 'TERM_PROGRAM_VERSION': '1.69.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d0769b9e-06b4-4be9-a1d8-a7519a0a39e3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/atlas/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/atlas/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/atlas/atlas_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'atlas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/atlas/.vscode-server/bin/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-66ccd35f19.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '37', 'AMENT_PREFIX_PATH': '/home/atlas/atlas_ws/install/atlas_basic:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/atlas/atlas_ws/build/atlas_basic', 'SSH_CONNECTION': 'fe80::a99f:da3e:87b1:8247%wlan0 60997 fe80::dea6:32ff:fe5c:952%wlan0 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages:/home/atlas/atlas_ws/build/atlas_basic:/home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.168947] (-) TimerEvent: {}
+[4.271526] (-) TimerEvent: {}
+[4.372506] (-) TimerEvent: {}
+[4.474895] (-) TimerEvent: {}
+[4.576523] (-) TimerEvent: {}
+[4.678299] (-) TimerEvent: {}
+[4.779459] (-) TimerEvent: {}
+[4.880244] (-) TimerEvent: {}
+[4.981923] (-) TimerEvent: {}
+[5.083203] (-) TimerEvent: {}
+[5.184256] (-) TimerEvent: {}
+[5.285186] (-) TimerEvent: {}
+[5.386055] (-) TimerEvent: {}
+[5.487240] (-) TimerEvent: {}
+[5.591520] (-) TimerEvent: {}
+[5.696853] (-) TimerEvent: {}
+[5.797737] (-) TimerEvent: {}
+[5.898742] (-) TimerEvent: {}
+[5.973162] (atlas_basic) StdoutLine: {'line': b'running develop\n'}
+[5.998868] (-) TimerEvent: {}
+[6.099719] (-) TimerEvent: {}
+[6.200645] (-) TimerEvent: {}
+[6.305644] (-) TimerEvent: {}
+[6.407953] (-) TimerEvent: {}
+[6.509116] (-) TimerEvent: {}
+[6.609987] (-) TimerEvent: {}
+[6.710895] (-) TimerEvent: {}
+[6.811872] (-) TimerEvent: {}
+[6.913172] (-) TimerEvent: {}
+[7.014520] (-) TimerEvent: {}
+[7.055522] (atlas_basic) StdoutLine: {'line': b'running egg_info\n'}
+[7.056451] (atlas_basic) StdoutLine: {'line': b'writing atlas_basic.egg-info/PKG-INFO\n'}
+[7.057310] (atlas_basic) StdoutLine: {'line': b'writing dependency_links to atlas_basic.egg-info/dependency_links.txt\n'}
+[7.058474] (atlas_basic) StdoutLine: {'line': b'writing entry points to atlas_basic.egg-info/entry_points.txt\n'}
+[7.059904] (atlas_basic) StdoutLine: {'line': b'writing requirements to atlas_basic.egg-info/requires.txt\n'}
+[7.061044] (atlas_basic) StdoutLine: {'line': b'writing top-level names to atlas_basic.egg-info/top_level.txt\n'}
+[7.069204] (atlas_basic) StdoutLine: {'line': b"reading manifest file 'atlas_basic.egg-info/SOURCES.txt'\n"}
+[7.073319] (atlas_basic) StdoutLine: {'line': b"writing manifest file 'atlas_basic.egg-info/SOURCES.txt'\n"}
+[7.080297] (atlas_basic) StdoutLine: {'line': b'running build_ext\n'}
+[7.081522] (atlas_basic) StdoutLine: {'line': b'Creating /home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages/atlas-basic.egg-link (link to .)\n'}
+[7.086128] (atlas_basic) StdoutLine: {'line': b'Installing odometry script to /home/atlas/atlas_ws/install/atlas_basic/lib/atlas_basic\n'}
+[7.087330] (atlas_basic) StdoutLine: {'line': b'Installing wheel_control script to /home/atlas/atlas_ws/install/atlas_basic/lib/atlas_basic\n'}
+[7.089216] (atlas_basic) StdoutLine: {'line': b'\n'}
+[7.090543] (atlas_basic) StdoutLine: {'line': b'Installed /home/atlas/atlas_ws/build/atlas_basic\n'}
+[7.092760] (atlas_basic) StdoutLine: {'line': b'running install_data\n'}
+[7.114888] (-) TimerEvent: {}
+[7.231948] (-) TimerEvent: {}
+[7.257335] (atlas_basic) CommandEnded: {'returncode': 0}
+[7.337460] (-) TimerEvent: {}
+[7.382156] (atlas_basic) JobEnded: {'identifier': 'atlas_basic', 'rc': 0}
+[7.386383] (-) EventReactorShutdown: {}

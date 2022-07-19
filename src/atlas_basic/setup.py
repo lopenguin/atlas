@@ -1,6 +1,7 @@
 from setuptools import setup
+from glob import glob
 
-package_name = 'atlas_basic'
+package_name    = 'atlas_basic'
 
 setup(
     name=package_name,
@@ -9,18 +10,21 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
-        ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name, ['package.xml'],),
+        ('share/' + package_name, glob('launch/*.launch.py'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='atlas',
     maintainer_email='lorenzo@caltech.edu',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Basic nodes to run Atlas: wheel control, encoder counting, command, etc.',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'hello_world = atlas_basic.hello_world:main'
+            'wheel_control  = atlas_basic.wheel_control.wheel_control:main',
+            'odometry       = atlas_basic.odometry.odometry:main',
+            'teleop         = atlas_basic.odometry.teleop:main',
         ],
     },
 )

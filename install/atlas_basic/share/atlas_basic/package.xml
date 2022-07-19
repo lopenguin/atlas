@@ -3,9 +3,15 @@
 <package format="3">
   <name>atlas_basic</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Basic nodes to run Atlas: wheel control, encoder counting, command, etc.</description>
   <maintainer email="lorenzo@caltech.edu">atlas</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

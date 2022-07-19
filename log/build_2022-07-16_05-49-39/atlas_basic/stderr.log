@@ -1,0 +1,2 @@
+warning: install_data: setup script did not provide a directory for 'launch/launch_teleop.py' -- installing right in '/home/atlas/atlas_ws/install/atlas_basic'
+

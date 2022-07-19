@@ -1,0 +1,18 @@
+[2.923s] Invoking command in '/home/atlas/atlas_ws/build/atlas_basic': PYTHONPATH=/home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/atlas/atlas_ws/install/atlas_basic --editable --build-directory /home/atlas/atlas_ws/build/atlas_basic/build --no-deps install_data --install-dir /home/atlas/atlas_ws/install/atlas_basic
+[4.133s] running develop
+[4.814s] running egg_info
+[4.815s] writing atlas_basic.egg-info/PKG-INFO
+[4.816s] writing dependency_links to atlas_basic.egg-info/dependency_links.txt
+[4.816s] writing entry points to atlas_basic.egg-info/entry_points.txt
+[4.817s] writing requirements to atlas_basic.egg-info/requires.txt
+[4.818s] writing top-level names to atlas_basic.egg-info/top_level.txt
+[4.826s] reading manifest file 'atlas_basic.egg-info/SOURCES.txt'
+[4.830s] writing manifest file 'atlas_basic.egg-info/SOURCES.txt'
+[4.836s] running build_ext
+[4.836s] Creating /home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages/atlas-basic.egg-link (link to .)
+[4.841s] Installing odometry script to /home/atlas/atlas_ws/install/atlas_basic/lib/atlas_basic
+[4.842s] Installing wheel_control script to /home/atlas/atlas_ws/install/atlas_basic/lib/atlas_basic
+[4.844s] 
+[4.845s] Installed /home/atlas/atlas_ws/build/atlas_basic
+[4.846s] running install_data
+[5.001s] Invoked command in '/home/atlas/atlas_ws/build/atlas_basic' returned '0': PYTHONPATH=/home/atlas/atlas_ws/install/atlas_basic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/atlas/atlas_ws/install/atlas_basic --editable --build-directory /home/atlas/atlas_ws/build/atlas_basic/build --no-deps install_data --install-dir /home/atlas/atlas_ws/install/atlas_basic

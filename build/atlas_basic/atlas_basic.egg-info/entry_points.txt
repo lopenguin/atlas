@@ -1,5 +1,0 @@
-[console_scripts]
-odometry = atlas_basic.odometry.odometry:main
-teleop = atlas_basic.odometry.teleop:main
-wheel_control = atlas_basic.wheel_control.wheel_control:main
-

@@ -1,1 +1,0 @@
-/home/atlas/atlas_ws/src/atlas_basic/setup.py

@@ -1,0 +1,12 @@
+# Ignore all pycache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore all .vscode files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets

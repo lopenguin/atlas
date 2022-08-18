@@ -7,6 +7,7 @@ This code is written and tested with ROS 2 Humble Hawksbill. The repository's ro
 ### Packages
 - **atlas_basic**: all the lower-level code critical for running the robot.
     - Nodes: wheel_control, odometry, planner
+- **atlas_description**: visualizing the robot. Includes URDF and launch file for visualization.
 - **altas_TBD**: high-level mapping scripts.
 
 ## More Info

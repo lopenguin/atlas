@@ -47,7 +47,7 @@ class PlannerNode(Node):
         self.goal_pose = msg.pose
         goal_t = 2*math.atan2(msg.pose.orientation.z, \
                               msg.pose.orientation.w)
-        self.get_logger().info(f"Goal command received: ({msg.pose.position.x:.2f}, {msg.pose.position.y:.2f}), theta={goal_t:.2f} rad in frame '{msg.header.frame_id}'.")
+        # self.get_logger().info(f"Goal command received: ({msg.pose.position.x:.2f}, {msg.pose.position.y:.2f}), theta={goal_t:.2f} rad in frame '{msg.header.frame_id}'.")
 
 
 # Constants for goto function

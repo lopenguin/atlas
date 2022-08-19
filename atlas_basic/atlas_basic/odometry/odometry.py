@@ -22,7 +22,7 @@ import rclpy
 from rclpy.node import Node
 import rclpy.time
 
-from geometry_msgs.msg  import Point, Quaternion, Twist
+from geometry_msgs.msg  import Point, Quaternion, Twist, Vector3
 from geometry_msgs.msg  import TransformStamped, Vector3
 from nav_msgs.msg       import Odometry
 from sensor_msgs.msg    import JointState
@@ -115,7 +115,7 @@ class OdometryNode(Node):
 
         # Convert to a ROS Point, Quaternion, Twist (lin&ang veloocity).
         p = Point(x=self.x, y=self.y, z=0.0)
-        q = Quaternion(w=0.0, x=0.0, y=math.sin(self.theta/2), z=math.cos(self.theta/2))
+        q = Quaternion(w=math.cos(self.theta/2), x=0.0, y=0.0, z=math.sin(self.theta/2))
         t = Twist(linear=Vector3(x=vx, y=0.0, z=0.0), angular=Vector3(x=0.0, y=0.0, z=wz))
 
         # Create the odometry msg and publish (reuse the time stamp).
@@ -133,7 +133,7 @@ class OdometryNode(Node):
         msg.header.stamp            = timestamp.to_msg()
         msg.header.frame_id         = 'odom'
         msg.child_frame_id          = 'base'
-        msg.transform.translation   = t.linear
+        msg.transform.translation   = Vector3(x=p.x, y=p.y, z=p.z)
         msg.transform.rotation      = q
         self.tfpub_odomtobase.sendTransform(msg)
 

@@ -11,7 +11,7 @@ def generate_launch_description():
 
     # Parameters
     pkg_name = 'atlas_description'
-    urdf_file_name = 'urdf/atlasfixed.urdf'
+    urdf_file_name = 'urdf/atlas.urdf'
     rviz_file_name = 'rviz/viewatlas.rviz'
     
     urdf = os.path.join(

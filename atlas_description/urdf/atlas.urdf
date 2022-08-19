@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
-     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter 
+     
+     This version contains CONTINUOUS joints for visualization. It also contains a dummy link-->
 <robot
   name="Atlas">
   <!-- Create a dummy link -->
   <link name="dummy_link"/>
   <joint name="dummy_joint" type="fixed">
     <parent link="dummy_link"/>
-    <child link="base_link"/>
+    <child link="base"/>
   </joint>
   <link
-    name="base_link">
+    name="base">
     <inertial>
       <origin
         xyz="-0.000212909415452442 0.0141353979927346 0.0286449785299869"
-        rpy="0 0 0" />
+        rpy="1.5708 0 -1.5708" />
       <mass
         value="0.499281541152724" />
       <inertia
@@ -29,10 +31,10 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 -1.5708" />
       <geometry>
         <mesh
-          filename="package://atlas_description/meshes/base_link.STL" />
+          filename="package://atlas_description/meshes/base_link.obj" />
       </geometry>
       <material
         name="">
@@ -43,15 +45,15 @@
     <collision>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 -1.5708" />
       <geometry>
         <mesh
-          filename="package://atlas_description/meshes/base_link.STL" />
+          filename="package://atlas_description/meshes/base_link.obj" />
       </geometry>
     </collision>
   </link>
   <link
-    name="lwheel_link">
+    name="lwheel">
     <inertial>
       <origin
         xyz="-1.87554312358618E-10 1.86289956377594E-08 0.018127012381905"
@@ -72,7 +74,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://atlas_description/meshes/lwheel_link.STL" />
+          filename="package://atlas_description/meshes/wheel.obj" />
       </geometry>
       <material
         name="">
@@ -86,7 +88,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://atlas_description/meshes/lwheel_link.STL" />
+          filename="package://atlas_description/meshes/wheel.obj" />
       </geometry>
     </collision>
   </link>
@@ -94,17 +96,17 @@
     name="lwheel_joint"
     type="continuous">
     <origin
-      xyz="-0.0459 0.0476 -0.013"
-      rpy="1.5708 0 -1.5708" />
+      xyz="0.0459 0.0776 -0.013"
+      rpy="1.5708 0 -3.1415" />
     <parent
-      link="base_link" />
+      link="base" />
     <child
-      link="lwheel_link" />
+      link="lwheel" />
     <axis
       xyz="0 0 1" />
   </joint>
   <link
-    name="rwheel_link">
+    name="rwheel">
     <inertial>
       <origin
         xyz="1.86223433409904E-08 -6.26257727967539E-10 0.0181270123819041"
@@ -125,7 +127,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://atlas_description/meshes/rwheel_link.STL" />
+          filename="package://atlas_description/meshes/wheel.obj" />
       </geometry>
       <material
         name="">
@@ -139,7 +141,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://atlas_description/meshes/rwheel_link.STL" />
+          filename="package://atlas_description/meshes/wheel.obj" />
       </geometry>
     </collision>
   </link>
@@ -147,12 +149,12 @@
     name="rwheel_joint"
     type="continuous">
     <origin
-      xyz="0.0459 0.0476 -0.013"
-      rpy="1.5708 0 1.5708" />
+      xyz="0.0459 -0.0776 -0.013"
+      rpy="1.5708 0 0"  />
     <parent
-      link="base_link" />
+      link="base" />
     <child
-      link="rwheel_link" />
+      link="rwheel" />
     <axis
       xyz="0 0 1" />
   </joint>
